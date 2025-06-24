@@ -17,12 +17,25 @@ This project is an interactive web-based application developed using **Dash** th
 - **Market Sentiment** analysis (Bullish, Bearish, Neutral)
 - **Interactive Filters & Sliders** for energy units, forecast window, and risk metrics
 
+## Dataset
+
+data/southern_region_energy_market.csv — Dataset used in the analysis. This file contains the energy transaction data for the Southern region market.
 ## Setup Instructions
 
-To set up and run this application locally:
 
 1. **Clone the repository:**
 
    ```bash
    git clone https://github.com/123sakhi/energy-market-backtesting-trading-strategies.git
    cd energy-market-backtesting-trading-strategies
+
+   - `data/southern_region_energy_market.csv` — Dataset used in the analysis. This file contains the energy transaction data for the Southern region market.
+
+2. **Install the required dependencies:**
+  ```bash
+pip install -r requirements.txt
+
+3. **Run the application:**
+  ```bash
+python App.py
+
